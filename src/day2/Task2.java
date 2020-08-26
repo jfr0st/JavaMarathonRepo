@@ -8,7 +8,7 @@ public class Task2 {
         int x = sc.nextInt();
         int y = sc.nextInt();
 
-        for(int i = x + 1; i < y - 1;i++){
+        for(int i = x + 1; i < y;i++){
             if (i % 5 == 0 && i % 10 != 0) System.out.print(i + " ");
         }
     }

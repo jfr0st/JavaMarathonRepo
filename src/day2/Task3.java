@@ -9,7 +9,7 @@ public class Task3 {
         int y = sc.nextInt();
         int z = x + 1;
 
-        while (z < (y - 1)){
+        while (z < (y)){
             if (z % 5 == 0 && z % 10 != 0) System.out.print(z + " ");
             z++;
         }
