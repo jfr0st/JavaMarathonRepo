@@ -22,7 +22,7 @@ public class Plane {
                 " кг, обьем топлива в баке: " + fuelCup);
     }
     void fillUp(double fuel){
-        this.fuelCup = fuel;
+        this.fuelCup += fuel;
         //System.out.println("Самолет заправлен на " + fuel + " литров топлива." );
     }
 

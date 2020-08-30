@@ -6,10 +6,10 @@ public class Player {
     private static final int MIN_STAMINA = 0;
     private static int countPlayers = 0;
 
-    public Player(int stamina) {
-        this.stamina = stamina;
-        if (countPlayers < 7) countPlayers++;
-        else countPlayers = 6;
+    public Player() {
+        this.stamina = (int)(Math.random()* (101-90) + 90);
+        countPlayers++;
+        if (countPlayers > 6) countPlayers = 6;
 
     }
 
