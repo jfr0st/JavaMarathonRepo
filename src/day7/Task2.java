@@ -28,6 +28,10 @@ public class Task2 {
             player1.run();
         }
         Player.info();
+        System.out.println();
+
+        player1.run(); //вызов метода run() на player1, у которого уже 0 stamina
+        Player.info();
 
         System.out.println();
 

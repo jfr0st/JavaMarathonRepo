@@ -30,13 +30,16 @@ public class Player {
     }
 
     public void run(){
-        if (this.stamina > 0){
+        if (this.stamina > MIN_STAMINA & this.stamina <= MAX_STAMINA){
             this.stamina -= 1;
-           // System.out.println(this.stamina);
+            if(this.stamina == MIN_STAMINA){
+                System.out.println("Игрок не может больше бежать. Нужен отдых.");
+                setCountPlayers(countPlayers - 1);
+            }
+
         }
         if (this.stamina == MIN_STAMINA){
-            System.out.println("Игрок не может больше бежать. Нужен отдых.");
-            setCountPlayers(countPlayers - 1);
+            System.out.println("Игрок уже выдохся и ушел на отдых");
         }
     }
 
