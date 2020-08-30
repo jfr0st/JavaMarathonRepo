@@ -6,5 +6,9 @@ public class Task2 {
         boeing.info();
         boeing.fillUp(500);
         boeing.info();
+        boeing.fillUp(300);
+        boeing.info();
+        boeing.fillUp(200);
+        boeing.info();
     }
 }
