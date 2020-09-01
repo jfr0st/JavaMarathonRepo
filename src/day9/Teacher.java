@@ -19,7 +19,7 @@ public class Teacher extends Human {
 
     @Override
     public void printInfo(){
-        System.out.println("Этот человек с именем " + super.getName());
+        super.printInfo();
         System.out.println("Этот перподаватель с именем " + super.getName());
     }
 }

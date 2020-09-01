@@ -38,11 +38,9 @@ public class Triangle extends Figure {
 
     public double area(){
         double p = (lenghtA + lenghtB + lenghtC) / 2;
-        double s =Math.sqrt((p*(p-lenghtA)*(p-lenghtB)*(p-lenghtC)));
-        return s;
+        return Math.sqrt((p*(p-lenghtA)*(p-lenghtB)*(p-lenghtC)));
     }
     public double perimeter(){
-        double p = lenghtA + lenghtB + lenghtC;
-        return p;
+        return  lenghtA + lenghtB + lenghtC;
     }
 }

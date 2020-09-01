@@ -27,11 +27,9 @@ public class Rectangle extends Figure {
     }
 
     public double area(){
-        double s = width * height;
-        return s;
+        return width * height;
     }
     public  double perimeter(){
-        double p = 2 * (width + height);
-        return p;
+        return 2 * (width + height);
     }
 }

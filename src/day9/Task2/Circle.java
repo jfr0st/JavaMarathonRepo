@@ -19,11 +19,9 @@ public class Circle extends Figure {
     }
 
     public  double area(){
-        double s = 3.14 * (radius * radius);
-        return s;
+        return 3.14 * (radius * radius);
     }
     public double perimeter(){
-        double perimetr = 2 * 3.14 * radius;
-        return perimetr;
+        return 2 * 3.14 * radius;
     }
 }
